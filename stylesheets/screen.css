@@ -1,0 +1,144 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* alternative layout breakpoints */
+/* line 9, ../sass/screen.scss */
+.page {
+  *zoom: 1;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0; }
+  /* line 38, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 13, ../sass/screen.scss */
+  .page > header {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
+    background-color: green;
+    margin-bottom: 1em; }
+  /* line 19, ../sass/screen.scss */
+  .page > div, .page > article {
+    min-height: 100px; }
+
+/* line 23, ../sass/screen.scss */
+.sidemenu {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  background-color: red; }
+
+/* line 29, ../sass/screen.scss */
+.main {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  background-color: blue; }
+
+/* line 35, ../sass/screen.scss */
+.sidebar {
+  width: 23.72881%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+  background-color: yellow;
+  display: none; }
+
+@media (min-width: 39em) {
+  /* line 45, ../sass/screen.scss */
+  .sidemenu {
+    width: 35.89744%;
+    float: left;
+    margin-right: 2.5641%; }
+
+  /* line 49, ../sass/screen.scss */
+  .main {
+    width: 61.53846%;
+    float: right;
+    margin-right: 0; } }
+@media (min-width: 55em) {
+  /* line 55, ../sass/screen.scss */
+  .sidemenu {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%; }
+
+  /* line 59, ../sass/screen.scss */
+  .main {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%; }
+
+  /* line 63, ../sass/screen.scss */
+  .sidebar {
+    width: 23.72881%;
+    float: right;
+    margin-right: 0;
+    display: inline; } }
