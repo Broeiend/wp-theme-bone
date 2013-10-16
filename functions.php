@@ -7,7 +7,7 @@
  */
 
 function enqueue_css() {
-    wp_register_style( 'normalize', get_template_directory_uri() . '/css/normalize.css', false, null, 'all' );
+    wp_register_style( 'normalize', get_template_directory_uri() . '/stylesheets/normalize.css', false, null, 'all' );
     wp_register_style( 'screen', get_template_directory_uri() . '/stylesheets/screen.css', false, null, 'screen, projection' );
     wp_register_style( 'ie', get_template_directory_uri() . '/stylesheets/screen.css', false, null, 'screen, projection' );
     wp_register_style( 'print', get_template_directory_uri() . '/stylesheets/screen.css', false, null, 'print' );

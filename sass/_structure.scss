@@ -1,0 +1,47 @@
+.page { 
+	// define outer container	
+	@include container($total-columns, $tablet, $computer); 
+	padding:0;
+	& > header { 
+		@include span-columns($total-columns omega); 
+		margin-bottom:$gutter-width;
+	}
+
+	> div, > article { min-height:100px;}
+} 
+
+.sidemenu { 
+	@include span-columns(12); 
+}
+
+.main { 
+	@include span-columns(12); 
+}
+
+.sidebar { 
+	@include span-columns(3 omega);  
+	display:none;
+}
+
+
+@include at-breakpoint($tablet){ 
+	.sidemenu {
+		@include span-columns(3); 
+	}
+	.main {
+		@include span-columns(5 omega);
+	}
+}
+
+@include at-breakpoint($computer){
+	.sidemenu {
+		@include span-columns(3); 
+	}
+	.main {
+		@include span-columns(6);
+	}
+	.sidebar {
+		@include span-columns(3 omega);
+		display:inline;
+	}
+}
