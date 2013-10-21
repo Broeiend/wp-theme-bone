@@ -44,8 +44,7 @@ Requirements:
 
 2.3 "Multi-class" patterns in combination with using @extends:
 
->
-If we have this html:
+> If we have this html:
 
 ```
 <button class="btn">Default</button>
@@ -53,7 +52,7 @@ If we have this html:
 <button class="btn-danger">Delete</button>
 ```
 
-Sass:
+> Sass:
 
 ```
 %btn {
@@ -75,7 +74,7 @@ Sass:
 ```
 *Note the `%`. Which is called the* [placeholder selector](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#placeholders).
 
-Outputs this CSS:
+> Outputs this CSS:
 
 ```
 .btn, .btn-primary, .btn-danger {
@@ -89,7 +88,7 @@ Outputs this CSS:
   background-color: red;
 }
 ```
->
+
 
 2.2 Class names should communicate useful information to developers.
 
