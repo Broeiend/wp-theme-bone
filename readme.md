@@ -40,13 +40,21 @@ Terminology:
 
 ## Don'ts:
 
-1. Don't use ID's. Rather use classes than ID's for styling purposes. 
+### 1. Don't use ID's. 
+
+Rather use classes than ID's for styling purposes. 
 *ID's mess up specificity because they are yoo strong. And also they are unique identifiers, which makes components built with them something like singletons, not reusable ont he same page.*
 
-2. Don't name classes based on aesthetics: `.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig'. 
+### 2. Don't name classes based on aesthetics 
+
+`.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig'. 
+
 *As the design changes, these variable names will increase complexity for making rapid changes. If your class is called "blue" and you want to change it to red, you also have to edit the html.* 
 Instead use: '.warning', 'primary', 'submenu', etc.
-3. Don't write 'undo' rules (apart from the reset.css). For example uf you wanted almost all of you headings to have a border-bottom:
+
+### 3. Don't write 'undo' rules (apart from the reset.css). 
+
+For example uf you wanted almost all of you headings to have a border-bottom:
 
 ```
 // Wrong
@@ -80,17 +88,17 @@ h2 {
 
 ## Do's:
 
-1. Content-independent class names.
+### 1. Content-independent class names.
 
-2. Abstract class names. 
+### 2. Abstract class names. 
 *To make a text stand out of smaller text you might choose `<div class="largeText"></div>`. This is unsemantic. It is specifying. `<div class="stand_out"></div>` might be better here. Maybe in the future you may wish to choose a different style to make that text stand out that has nothing to do with the size of the text.*
 
-3. Uncouple HTML and CSS 
+### 3. Uncouple HTML and CSS 
 *If a box uses a h2 or h3 as a heading `<div class="box"><h2>Box heading</h2></div>`, which you could style with `.box h2`. But what happens if the h2 changes to a h3? It would be better to add a class `<h2 class="box-heading">Box heading</h2>`. Now the HTML and CSS are more flexible.*
 
-4. Class names should communicate useful information to developers.
+### 4. Class names should communicate useful information to developers.
 
-5. Define formatting. 
+### 5. Define formatting. 
 
 **Multiline format** is preferred when using SASS. 
 **Naming class convention** can include `dash-case`, `camelCase`, `underscore_case`. 
@@ -139,7 +147,7 @@ Decleration formatting: by type (/* text */)
 
 ```
 
-6. "Multi-class" patterns in combination with using @extends:
+### 6. "Multi-class" patterns in combination with using @extends:
 
 > If we have this html:
 
