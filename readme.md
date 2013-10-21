@@ -36,11 +36,11 @@ Requirements:
 ## Notes on Front-end architecture
 
 Terms:
-- SMACSS - **S**calable and **M**odular **A**rcitecture for **CSS** is not a framework, but more a style guide. 
-- OOCSS - **O**bject **O**riented **CSS**
-- Semantic classes - 
-- Presentational classes -
-- Aestetic classes - 
+- **SMACSS** - **S**calable and **M**odular **A**rcitecture for **CSS** is not a framework, but more a style guide. 
+- **OOCSS** - **O**bject **O**riented **CSS**
+- **Semantic classes** - 
+- **Presentational classes** -
+- **Aestetic classes** - 
 
 
 ### Don'ts:
