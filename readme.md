@@ -42,8 +42,7 @@ Requirements:
 
 | Wrong        | Right           | 
 | ------------- |:-------------:|
-
-Wrong:
+| 
 ```
 <nav class="menu">
 	<ul>
@@ -53,8 +52,8 @@ Wrong:
 	</ul>
 </nav>
 ```
-
-> Right:
+ |
+| 
 ```
 <nav class="uilist">
     <ul>
@@ -64,6 +63,11 @@ Wrong:
 	</ul>
 </nav>
 ```
+ |
+
+
+
+
 
 
 2.2 Class names should communicate useful information to developers.
