@@ -42,11 +42,6 @@ Requirements:
 
 Wrong        	| Right	  
 :---------------:|:---------------:
-`test`	
-|
-`test2`           
-
-
 ```
 <nav class="menu">
 	<ul>
@@ -55,7 +50,13 @@ Wrong        	| Right
 		<li><a href="#" title="#">Login</a></li>
 	</ul>
 </nav>
- 
+```
+|`test2`           
+
+
+test
+
+```
 <nav class="uilist">
     <ul>
 		<li><a href="#" title="#">Home</a></li>
