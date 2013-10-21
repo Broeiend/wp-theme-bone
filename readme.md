@@ -88,7 +88,7 @@ Requirements:
   background-color: red;
 }
 ```
-
+> Experiment with this [example](http://sassmeister.com/gist/7083618)
 
 2.2 Class names should communicate useful information to developers.
 
