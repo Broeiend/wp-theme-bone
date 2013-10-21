@@ -12,14 +12,17 @@
 
 .sidemenu { 
 	@include span-columns(12); 
+	background-color:red;
 }
 
 .main { 
 	@include span-columns(12); 
+	background-color:blue;
 }
 
 .sidebar { 
 	@include span-columns(3 omega);  
+	background-color:yellow;
 	display:none;
 }
 
