@@ -44,7 +44,7 @@ Terms:
 
 ---
 
-### Don'ts:
+## Don'ts:
 
 1. Use ID's. Rather use classes than ID's for styling purposes. (The whole point for CSS is to create a Cascading Style Sheet)
 2. Name classes based on aesthetics: `.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig'. 
@@ -80,9 +80,8 @@ h2 {
 }
 ```
 
----
 
-### Do's:
+## Do's:
 
 1. Content-independent class names.
 
