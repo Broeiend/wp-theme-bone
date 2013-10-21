@@ -39,13 +39,5 @@ Requirements:
 
 1. Content-independent class names.
 2. Class names should communicate useful information to developers.
-3. Create multi-class patterns:
 
-```
-.btn { /* button template styles */ }
-.btn-primary { /* styles specific to primary button */ }
-
-<button class="btn">Default</button>
-<button class="btn btn-primary">Login</button>
-```
 
