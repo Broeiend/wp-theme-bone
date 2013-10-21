@@ -39,7 +39,6 @@ Requirements:
 ### Do's:
 
 2.1 Content-independent class names.
-<<<<<<< HEAD
 
 2.2 Class names should communicate useful information to developers.
 
@@ -47,10 +46,6 @@ Requirements:
 
 If we have this html:
 
-=======
-
-> Wrong:
->>>>>>> 7aa970994b048f470e8214d6966195318470df01
 ```
 <button class="btn">Default</button>
 <button class="btn-primary">Login</button>
