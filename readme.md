@@ -29,11 +29,11 @@ Requirements:
 
 ## Notes on Front-end architecture
 
-Terms:
+Terminology:
 - **SMACSS** - **S**calable and **M**odular **A**rcitecture for **CSS** is not a framework, but more a style guide. 
 - **OOCSS** - **O**bject **O**riented **CSS**. The purpose of OOCSS is to encourage code reuse and, ultimately, faster and more efficient stylesheets that are easier to add and maintain. OOCSS is often referred to as a framework and also as a idea (styleguide).
 - **Semantic classes** - The word semantic stands for 'the meaning of'. Semantic naming describes the releationships between things (human - female - hand). Think about _why_ you want something a certain way instead of _how_ it should look.
-- **Presentational classes** - Usage often seen as a bad practice of webdevelopment, for instance in case of `.red-header`. But `.col-3` of `.nav-inline` is considered good because they don't seem to be affected by minor cosmetic updates.
+- **Presentational classes** - Usage often seen as a bad practice of webdevelopment, for instance in case of `.red-header`. But `.col-3` or `.nav-inline` is considered good because they don't seem to be affected by minor cosmetic updates.
 - **Aesthetic class naming** - The bad scenario of the presentational class mentioned above
 
 ---
