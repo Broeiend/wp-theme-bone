@@ -62,6 +62,7 @@ h2 .no-border {
 In this case a new rule is added to undo previous rules: `.no-border { padding-bottom: 0; border-bottom:none; }`, but this is NOT ideal. It is much better to write sub-modules that add styles. 
 
 ```
+// Right
 /* default style */
 h2 {
 	font-size:1.5em;
@@ -87,7 +88,29 @@ h2 {
 
 4. Class names should communicate useful information to developers.
 
-5. "Multi-class" patterns in combination with using @extends:
+5. Define formatting. Multiline format is preferred when using SASS. Naming class convention can include `dash-case`, `camelCase`, `underscore_case`. 
+
+Prefer `dash-case` for css so you don't have to use the Shift key when writing the code. Also this naming convention can also be used in (for future) usage of the [BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/).
+
+Usage across languages:
+- `dash-case` in HTML/CSS
+- `camelCase` in Javascript
+- `underscore_case` in PHP 
+
+Example:
+
+Stylesheet format: Use multiline format with indenting.
+Css naming: dash-case
+
+```
+.navigation-rss-icon {
+	position:absolute;
+	left:100px;
+	bottom:0px;
+}
+```
+
+6. "Multi-class" patterns in combination with using @extends:
 
 > If we have this html:
 
