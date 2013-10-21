@@ -42,7 +42,7 @@ Requirements:
 
 Wrong        	| Right	  
 :---------------:|:---------------:
-```
+<code>
 <nav class="menu">
 	<ul>
 		<li><a href="#" title="#">Home</a></li>
@@ -50,8 +50,7 @@ Wrong        	| Right
 		<li><a href="#" title="#">Login</a></li>
 	</ul>
 </nav>
-```
-|`test2`           
+</code>| test2
 
 
 test
