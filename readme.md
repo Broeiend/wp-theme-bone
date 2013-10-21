@@ -42,6 +42,7 @@ Terms:
 - **Presentational classes** -
 - **Aestetic classes** - 
 
+---
 
 ### Don'ts:
 
@@ -60,8 +61,11 @@ h2 {
 	padding-bottom: 1em;
 	border-bottom: 1px solid red;
 }
+h2 .no-border { 
+	padding-bottom: 0; border-bottom:none; 
+}
 ```
-In this case you could write a new rule like this: `.no-border { padding-bottom: 0; border-bottom:none; }`, but this is NOT ideal. It is much better to write sub-modules that add styles. 
+In this case a new rule is added to undo previous rules: `.no-border { padding-bottom: 0; border-bottom:none; }`, but this is NOT ideal. It is much better to write sub-modules that add styles. 
 
 ```
 /* default style */
@@ -76,6 +80,7 @@ h2 {
 }
 ```
 
+---
 
 ### Do's:
 
