@@ -192,11 +192,11 @@ Decleration formatting: by type (/* text */)
 
 ### Sources:
 
-Object in space - Medium.com post by [Andrew Colclough](https://medium.com/objects-in-space/f6f404727)
-Scalable and modular Architecture for CSS by - [SMACCS](http://smacss.com/)
-Object Oriented CSS by [Stubbornella](https://github.com/stubbornella/oocss/wiki)
-Slides from Brisbane Web Designer Meetup 13 March 2013. by [Russ Weakley](http://www.slideshare.net/maxdesign/css-oocss-and-smacss)
-What is meant by an "object" in OOCSS. By impressivewebs on [Github](https://github.com/stubbornella/oocss/wiki/FAQ) 
+- Object in space - Medium.com post by [Andrew Colclough](https://medium.com/objects-in-space/f6f404727)
+- Scalable and modular Architecture for CSS by - [SMACCS](http://smacss.com/)
+- Object Oriented CSS by [Stubbornella](https://github.com/stubbornella/oocss/wiki)
+- Slides from Brisbane Web Designer Meetup 13 March 2013. by [Russ Weakley](http://www.slideshare.net/maxdesign/css-oocss-and-smacss)
+- What is meant by an "object" in OOCSS. By impressivewebs on [Github](https://github.com/stubbornella/oocss/wiki/FAQ) 
 
 
 
