@@ -45,10 +45,34 @@ Terms:
 
 ### Don'ts:
 
-1. Use classes rather than ID's for styling purposes. (The whole point for CSS is to create a Cascading Style Sheet)
-2. Naming classes based on aesthetics: `.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig'. 
+1. Use ID's. Rather use classes than ID's for styling purposes. (The whole point for CSS is to create a Cascading Style Sheet)
+2. Name classes based on aesthetics: `.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig'. 
 *As the design changes, these variable names will increase complexity for making rapid changes. If your class is called "blue" and you want to change it to red, you also have to edit the html.* 
 Instead use: '.warning', 'primary', 'submenu', etc.
+3. Write 'undo' rules (apart from the reset.css). For example uf you wanted almost all of you headings to have a border-bottom:
+```
+// Wrong
+h2 {
+	font-size 1.5em;
+	margin-bottom: 1em;
+	// add the border bottom
+	padding-bottom: 1em;
+	border-bottom: 1px solid red;
+}
+```
+In this case you could write a new rule like this: `.no-border { padding-bottom: 0; border-bottom:none; }`, but this is NOT ideal. It is much better to write sub-modules that add styles. 
+```
+/* default style */
+h2 {
+	font-size:1.5em;
+	margin-bottom: 1em;
+}
+/* Only when border needed */
+.headline {
+	padding-bottom: 1em;
+	border-bottom: 1px solid red;
+}
+```
 
 
 ### Do's:
@@ -58,9 +82,12 @@ Instead use: '.warning', 'primary', 'submenu', etc.
 2. Abstract class names. 
 *To make a text stand out of smaller text you might choose `<div class="largeText"></div>`. This is unsemantic. It is specifying. `<div class="stand_out"></div>` might be better here. Maybe in the future you may wish to choose a different style to make that text stand out that has nothing to do with the size of the text.*
 
-3. Class names should communicate useful information to developers.
+3. Uncouple HTML and CSS 
+*If a box uses a h2 or h3 as a heading `<div class="box"><h2>Box heading</h2></div>`, which you could style with `.box h2`. But what happens if the h2 changes to a h3? It would be better to add a class `<h2 class="box-heading">Box heading</h2>`. Now the HTML and CSS are more flexible.*
 
-4. "Multi-class" patterns in combination with using @extends:
+4. Class names should communicate useful information to developers.
+
+5. "Multi-class" patterns in combination with using @extends:
 
 > If we have this html:
 
