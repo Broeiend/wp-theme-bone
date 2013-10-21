@@ -47,7 +47,7 @@ Rather use classes than ID's for styling purposes.
 
 ### 2. Don't name classes based on aesthetics 
 
-`.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig'. 
+`.skyblue`, `.primary-green`, `.orange.bold`. 
 
 *As the design changes, these variable names will increase complexity for making rapid changes. If your class is called "blue" and you want to change it to red, you also have to edit the html.* 
 Instead use: '.warning', 'primary', 'submenu', etc.
@@ -163,20 +163,21 @@ Usage across languages:
 **Multiline format** is preferred when using SASS. 
 **Decleration formatting** can be used in a few methods, grouped by type (45%), randomly(39%), by alphabet(14%) or by line(2%). 
 
+Organize in the following order:
+1. Display & Box model
+2. Positioning
+3. Color
+4. Text
+5. Other
+
 **Example:**
 
 Stylesheet format: Use multiline format with indenting. (⋅⋅)
 Css naming: dash-case (-)
 Decleration formatting: by type (/* text */)
 
-
 ```
 .selector-type {
-⋅⋅/* Positioning */
-⋅⋅position:absolute;
-⋅⋅left:100px;
-⋅⋅bottom:0px;
-
 ⋅⋅/* Display & Box Model */
 ⋅⋅display: inline-block;
 ⋅⋅overflow: hidden;
@@ -185,6 +186,11 @@ Decleration formatting: by type (/* text */)
 ⋅⋅height:100px;
 ⋅⋅padding:10px;
 ⋅⋅margin:10px;
+
+⋅⋅/* Positioning */
+⋅⋅position:absolute;
+⋅⋅left:100px;
+⋅⋅bottom:0px;
 
 ⋅⋅/* Color */
 ⋅⋅background: #000;
