@@ -42,13 +42,13 @@ Requirements:
 
 Wrong        	| Right	  
 :---------------:|:---------------:
-<code><nav class="menu">
+```<nav class="menu">
 	<ul>
 		<li><a href="#" title="#">Home</a></li>
 		<li><a href="#" title="#">About</a></li>
 		<li><a href="#" title="#">Login</a></li>
 	</ul>
-</nav></code>| test2
+</nav>```| test2
 
 
 test
