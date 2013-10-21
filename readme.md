@@ -46,7 +46,7 @@ Requirements:
 
 > If we have this html:
 
-```
+> ```
 <button class="btn">Default</button>
 <button class="btn-primary">Login</button>
 <button class="btn-danger">Delete</button>
