@@ -164,6 +164,7 @@ Usage across languages:
 **Decleration formatting** can be used in a few methods, grouped by type (45%), randomly(39%), by alphabet(14%) or by line(2%). 
 
 Organize in the following order:
+
 1. Display & Box model
 2. Positioning
 3. Color
