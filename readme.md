@@ -72,7 +72,7 @@ Sass:
 }
 
 ```
-*Note the `%`. Which is called the* **_placeholder selector_**
+*Note the `%`. Which is called the* [placeholder selector](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#placeholders).
 
 Outputs this CSS:
 
