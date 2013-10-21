@@ -25,19 +25,13 @@ Requirements:
 
 *Note: Css architecture based on SMACSS: http://smacss.com/*
 
-
-------------
-
-> The purpose of OOCSS is to encourage code reuse and, ultimately, faster and more efficient stylesheets taht are easier to add and maintain.
-
-------------
-
+------
 
 ## Notes on Front-end architecture
 
 Terms:
 - **SMACSS** - **S**calable and **M**odular **A**rcitecture for **CSS** is not a framework, but more a style guide. 
-- **OOCSS** - **O**bject **O**riented **CSS**
+- **OOCSS** - **O**bject **O**riented **CSS**. The purpose of OOCSS is to encourage code reuse and, ultimately, faster and more efficient stylesheets that are easier to add and maintain.
 - **Semantic classes** - 
 - **Presentational classes** -
 - **Aestetic classes** - 
