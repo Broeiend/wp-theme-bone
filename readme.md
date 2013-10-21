@@ -40,11 +40,11 @@ Terms:
 
 ## Don'ts:
 
-1. Use ID's. Rather use classes than ID's for styling purposes. (The whole point for CSS is to create a Cascading Style Sheet)
-2. Name classes based on aesthetics: `.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig'. 
+1. Don't use ID's. Rather use classes than ID's for styling purposes. (The whole point for CSS is to create a Cascading Style Sheet)
+2. Don't name classes based on aesthetics: `.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig'. 
 *As the design changes, these variable names will increase complexity for making rapid changes. If your class is called "blue" and you want to change it to red, you also have to edit the html.* 
 Instead use: '.warning', 'primary', 'submenu', etc.
-3. Write 'undo' rules (apart from the reset.css). For example uf you wanted almost all of you headings to have a border-bottom:
+3. Don't write 'undo' rules (apart from the reset.css). For example uf you wanted almost all of you headings to have a border-bottom:
 
 ```
 // Wrong
@@ -88,26 +88,53 @@ h2 {
 
 4. Class names should communicate useful information to developers.
 
-5. Define formatting. Multiline format is preferred when using SASS. Naming class convention can include `dash-case`, `camelCase`, `underscore_case`. 
+5. Define formatting. 
 
-Prefer `dash-case` for css so you don't have to use the Shift key when writing the code. Also this naming convention can also be used in (for future) usage of the [BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/).
+**Multiline format** is preferred when using SASS. 
+**Naming class convention** can include `dash-case`, `camelCase`, `underscore_case`. 
+
+Most people (css tricks formatting poll) prefer `dash-case` for css naming convetion so you don't have to use the Shift key when writing the code. Also this naming convention can also be used in (for future) usage of the [BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/).
 
 Usage across languages:
 - `dash-case` in HTML/CSS
 - `camelCase` in Javascript
 - `underscore_case` in PHP 
 
-Example:
+**Decleration formatting** can be used in a few methods, grouped by type (45%), randomly(39%), by alphabet(14%) or by line(2%). 
 
-Stylesheet format: Use multiline format with indenting.
-Css naming: dash-case
+
+**Example:**
+
+Stylesheet format: Use multiline format with indenting. (⋅⋅)
+Css naming: dash-case (-)
+Decleration formatting: by type (/* text */)
+
 
 ```
-.navigation-rss-icon {
-	position:absolute;
-	left:100px;
-	bottom:0px;
+.selector-type {
+⋅⋅/* Positioning */
+⋅⋅position:absolute;
+⋅⋅left:100px;
+⋅⋅bottom:0px;
+
+⋅⋅/* Display & Box Model */
+⋅⋅display: inline-block;
+⋅⋅overflow: hidden;
+⋅⋅box-sizing: border-box;
+⋅⋅width:100px;
+⋅⋅height:100px;
+⋅⋅padding:10px;
+⋅⋅margin:10px;
+
+⋅⋅/* Color */
+⋅⋅background: #000;
+⋅⋅color:#fff;
+
+⋅⋅/* Text */
+⋅⋅etc...
 }
+
+
 ```
 
 6. "Multi-class" patterns in combination with using @extends:
@@ -159,9 +186,11 @@ Css naming: dash-case
 > Experiment with this [example](http://sassmeister.com/gist/7083618)
 
 
+---
 
+Sources:
 
-
+Slides from Brisbane Web Designer Meetup 13 March 2013. by [Russ Weakley](http://www.slideshare.net/maxdesign/css-oocss-and-smacss)
 
 
 
