@@ -29,16 +29,16 @@ Requirements:
 
 ## Notes on CSS naming conventions
 
-1. Don'ts:
+1 Don'ts:
 
-1. Naming classes based on aesthetics: `.skyblue`, `.primary-green`. 
+1.1 Naming classes based on aesthetics: `.skyblue`, `.primary-green`. 
 *As the design changes, these variable names will increase complexity for making rapid changes.*
-2. ... 
+1.2 ... 
 
-2. Do's:**
+2 Do's:**
 
-1. Content-independent class names.
-2. Class names should communicate useful information to developers.
+2.1 Content-independent class names.
+2.2 Class names should communicate useful information to developers.
 
 
 ### Examples
