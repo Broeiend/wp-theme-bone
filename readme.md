@@ -44,6 +44,7 @@ Requirements:
 
 2.3 "Multi-class" patterns in combination with using @extends:
 
+>
 If we have this html:
 
 ```
@@ -88,6 +89,7 @@ Outputs this CSS:
   background-color: red;
 }
 ```
+>
 
 2.2 Class names should communicate useful information to developers.
 
