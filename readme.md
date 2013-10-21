@@ -35,12 +35,18 @@ Requirements:
 
 ## Notes on Front-end architecture
 
-Scalable and Modular Arcitecture for CSS (SMACSS) is not a framework, but more a style guide. 
+Terms:
+SMACSS - **S**calable and **M**odular **A**rcitecture for **CSS** is not a framework, but more a style guide. 
+OOCSS - **O**bject **O**riented **CSS**
+Semantic classes - 
+Presentational classes -
+Aestetic classes - 
+
 
 ### Don'ts:
 
-1 Use classes rather than ID's for styling purposes. (The whole point for CSS is to create a Cascading Style Sheet)
-2 Naming classes based on aesthetics: `.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig' .  
+** 1 Use classes rather than ID's for styling purposes. (The whole point for CSS is to create a Cascading Style Sheet)**
+** 2 Naming classes based on aesthetics: `.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig'. **
 *As the design changes, these variable names will increase complexity for making rapid changes. If your class is called "blue" and you want to change it to red, you also have to edit the html.* 
 Instead use: '.warning', 'primary', 'submenu', etc.
 
@@ -49,9 +55,12 @@ Instead use: '.warning', 'primary', 'submenu', etc.
 
 **1 Content-independent class names.**
 
-**2 Class names should communicate useful information to developers.**
+**2 Abstract class names. 
+*To make a text stand out of smaller text you might choose `<div class="largeText"></div>`. This is unsemantic. It is specifying. `<div class="stand_out"></div>` might be better here. Maybe in the future you may wish to choose a different style to make that text stand out that has nothing to do with the size of the text.*
 
-**3 "Multi-class" patterns in combination with using @extends:**
+**3 Class names should communicate useful information to developers.**
+
+**4 "Multi-class" patterns in combination with using @extends:**
 
 > If we have this html:
 
@@ -99,7 +108,6 @@ Instead use: '.warning', 'primary', 'submenu', etc.
 ```
 > Experiment with this [example](http://sassmeister.com/gist/7083618)
 
-**4 Class names should communicate useful information to developers.**
 
 
 
