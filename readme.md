@@ -31,16 +31,18 @@ Requirements:
 
 Terms:
 - **SMACSS** - **S**calable and **M**odular **A**rcitecture for **CSS** is not a framework, but more a style guide. 
-- **OOCSS** - **O**bject **O**riented **CSS**. The purpose of OOCSS is to encourage code reuse and, ultimately, faster and more efficient stylesheets that are easier to add and maintain.
-- **Semantic classes** - 
-- **Presentational classes** -
-- **Aestetic classes** - 
+- **OOCSS** - **O**bject **O**riented **CSS**. The purpose of OOCSS is to encourage code reuse and, ultimately, faster and more efficient stylesheets that are easier to add and maintain. OOCSS is often referred to as a framework and also as a idea (styleguide).
+- **Semantic classes** - The word semantic stands for 'the meaning of'. Semantic naming describes the releationships between things (human - female - hand). Think about _why_ you want something a certain way instead of _how_ it should look.
+- **Presentational classes** - Usage often seen as a bad practice of webdevelopment, for instance in case of `.red-header`. But `.col-3` of `.nav-inline` is considered good because they don't seem to be affected by minor cosmetic updates.
+- **Aesthetic class naming** - The bad scenario of the presentational class mentioned above
 
 ---
 
 ## Don'ts:
 
-1. Don't use ID's. Rather use classes than ID's for styling purposes. (The whole point for CSS is to create a Cascading Style Sheet)
+1. Don't use ID's. Rather use classes than ID's for styling purposes. 
+*ID's mess up specificity because they are yoo strong. And also they are unique identifiers, which makes components built with them something like singletons, not reusable ont he same page.*
+
 2. Don't name classes based on aesthetics: `.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig'. 
 *As the design changes, these variable names will increase complexity for making rapid changes. If your class is called "blue" and you want to change it to red, you also have to edit the html.* 
 Instead use: '.warning', 'primary', 'submenu', etc.
@@ -188,9 +190,13 @@ Decleration formatting: by type (/* text */)
 
 ---
 
-Sources:
+### Sources:
 
+Object in space - Medium.com post by [Andrew Colclough](https://medium.com/objects-in-space/f6f404727)
+Scalable and modular Architecture for CSS by - [SMACCS](http://smacss.com/)
+Object Oriented CSS by [Stubbornella](https://github.com/stubbornella/oocss/wiki)
 Slides from Brisbane Web Designer Meetup 13 March 2013. by [Russ Weakley](http://www.slideshare.net/maxdesign/css-oocss-and-smacss)
+What is meant by an "object" in OOCSS. By impressivewebs on [Github](https://github.com/stubbornella/oocss/wiki/FAQ) 
 
 
 
