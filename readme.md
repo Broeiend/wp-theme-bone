@@ -17,9 +17,9 @@ Requirements:
 
 1. **css3** (compass include) = Cross-browser mixins for CSS properties introduced in CSS3. See [Compass CSS3](http://compass-style.org/reference/compass/css3/)
 2. **susy** (compass include) = Grid structure. See [Susy](http://susy.oddbird.net/guides/#start-basic)
-3. **base** (_base.scss) = 
-4. **layout** (_layout.scss) = Defining the grid. 
-5. **modules** (_modules.scss) = The reusable, modular parts of the design. 
+3. **base** (_base.scss) = These are the defaults. Almost exlusively single element selectors.
+4. **layout** (_layout.scss) = Divide the page into sections. Layouts hold one or more modules together. Defining the grid. 
+5. **modules** (_modules.scss) = The reusable, modular parts of the design. They are the callouts, sidebar sections, product lists etc.
 
 1 t/m 5 are compiled (output_style:compressed) into style.css
 
@@ -35,24 +35,23 @@ Requirements:
 
 ## Notes on Front-end architecture
 
+Scalable and Modular Arcitecture for CSS (SMACSS) is not a framework, but more a style guide. 
+
 ### Don'ts:
 
-1.1 Naming classes based on aesthetics: `.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig' .  
-*As the design changes, these variable names will increase complexity for making rapid changes.* 
+1 Use classes rather than ID's for styling purposes. (The whole point for CSS is to create a Cascading Style Sheet)
+2 Naming classes based on aesthetics: `.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig' .  
+*As the design changes, these variable names will increase complexity for making rapid changes. If your class is called "blue" and you want to change it to red, you also have to edit the html.* 
+Instead use: '.warning', 'primary', 'submenu', etc.
 
-But use: '.warning', 'primary', 'submenu', etc.
-
-
-
-1.2 ... 
 
 ### Do's:
 
-2.1 Content-independent class names.
+**1 Content-independent class names.**
 
-2.2 Class names should communicate useful information to developers.
+**2 Class names should communicate useful information to developers.**
 
-2.3 "Multi-class" patterns in combination with using @extends:
+**3 "Multi-class" patterns in combination with using @extends:**
 
 > If we have this html:
 
@@ -100,7 +99,7 @@ But use: '.warning', 'primary', 'submenu', etc.
 ```
 > Experiment with this [example](http://sassmeister.com/gist/7083618)
 
-2.2 Class names should communicate useful information to developers.
+**4 Class names should communicate useful information to developers.**
 
 
 
