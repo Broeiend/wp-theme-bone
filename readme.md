@@ -40,9 +40,11 @@ Requirements:
 
 2.1 Content-independent class names.
 
-| Wrong        | Right           | 
-| ------------- |:-------------:|
-| 
+:Wrong        	:|:Right	  :
+:---------------:|:---------------:
+:test		:|:               :
+
+```
 <nav class="menu">
 	<ul>
 		<li><a href="#" title="#">Home</a></li>
@@ -50,8 +52,7 @@ Requirements:
 		<li><a href="#" title="#">Login</a></li>
 	</ul>
 </nav>
- |
-| 
+ 
 <nav class="uilist">
     <ul>
 		<li><a href="#" title="#">Home</a></li>
@@ -59,7 +60,7 @@ Requirements:
 		<li><a href="#" title="#">Login</a></li>
 	</ul>
 </nav>
- |
+```
 
 
 
