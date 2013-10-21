@@ -27,45 +27,67 @@ Requirements:
 
 =====
 
-## Notes on CSS naming conventions
+## Notes on Front-end architecture
 
-1 Don'ts:
+### Don'ts:
 
-1.1 Naming classes based on aesthetics: `.skyblue`, `.primary-green`. 
-*As the design changes, these variable names will increase complexity for making rapid changes.*
+1.1 Naming classes based on aesthetics: `.skyblue`, `.primary-green`.  
+*As the design changes, these variable names will increase complexity for making rapid changes.* 
+
 1.2 ... 
 
-2 Do's:**
+### Do's:
 
 2.1 Content-independent class names.
+
 2.2 Class names should communicate useful information to developers.
 
+2.3 "Multi-class" patterns:
 
-### Examples
+If we have this html:
 
-2.1 
-> Wrong:
 ```
-<nav class="menu">
-	<ul>
-		<li><a href="#" title="#">Home</a></li>
-		<li><a href="#" title="#">About</a></li>
-		<li><a href="#" title="#">Login</a></li>
-	</ul>
-</nav>
+<button class="btn">Default</button>
+<button class="btn-primary">Login</button>
+<button class="btn-danger">Delete</button>
 ```
 
-> Right:
-```
-<nav class="uilist">
-    <ul>
-		<li><a href="#" title="#">Home</a></li>
-		<li><a href="#" title="#">About</a></li>
-		<li><a href="#" title="#">Login</a></li>
-	</ul>
-</nav>
-```
+Sass:
 
+```
+%btn {
+    padding:10px 15px;
+    font-size:12px;
+}
+.btn {
+    @extend %btn;
+}
+.btn-primary {
+    @extend %btn;
+    background-color:green;
+}
+.btn-danger {
+    @extend %btn;
+    background-color:red;
+}
+
+```
+Outputs this CSS:
+
+```
+.btn, .btn-primary, .btn-danger {
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+.btn-primary {
+  background-color: green;
+}
+
+.btn-danger {
+  background-color: red;
+}
+```
 
 
 
