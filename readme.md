@@ -40,9 +40,9 @@ Requirements:
 
 2.1 Content-independent class names.
 
-:Wrong        	:|:Right	  :
+Wrong        	| Right	  
 :---------------:|:---------------:
-:test		:|:               :
+`test`		|`test2`           
 
 ```
 <nav class="menu">
