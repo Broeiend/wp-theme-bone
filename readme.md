@@ -39,7 +39,7 @@ Requirements:
 
 1. Content-independent class names.
 
-Wrong:
+> Wrong:
 ```
 <nav class="menu">
 	<ul>
@@ -50,7 +50,7 @@ Wrong:
 </nav>
 ```
 
-Right:
+> Right:
 ```
 <nav class="uilist">
     <ul>
