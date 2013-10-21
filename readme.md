@@ -42,7 +42,7 @@ Requirements:
 
 2.2 Class names should communicate useful information to developers.
 
-2.3 "Multi-class" patterns:
+2.3 "Multi-class" patterns in combination with using @extends:
 
 If we have this html:
 
@@ -72,6 +72,8 @@ Sass:
 }
 
 ```
+*Note the `%`. Which is called the **placeholder selector***
+
 Outputs this CSS:
 
 ```
@@ -79,11 +81,9 @@ Outputs this CSS:
   padding: 10px 15px;
   font-size: 12px;
 }
-
 .btn-primary {
   background-color: green;
 }
-
 .btn-danger {
   background-color: red;
 }
