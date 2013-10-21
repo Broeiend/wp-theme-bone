@@ -29,11 +29,14 @@ Requirements:
 
 #### Notes CSS naming conventions
 
-Don'ts:
+**Don'ts:**
+
 1. Naming classes based on aesthetics: `.skyblue`, `.primary-green`. 
 *As the design changes, these variable names will increase complexity for making rapid changes.*
+2. 
 
-Do's:
+**Do's:**
+
 1. Content-independent class names.
 2. Class names should communicate useful information to developers.
 3. Create multi-class patterns:
