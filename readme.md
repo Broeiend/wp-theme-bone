@@ -98,56 +98,7 @@ h2 {
 
 ### 4. Class names should communicate useful information to developers.
 
-### 5. Define formatting. 
-
-**Multiline format** is preferred when using SASS. 
-**Naming class convention** can include `dash-case`, `camelCase`, `underscore_case`. 
-
-Most people (css tricks formatting poll) prefer `dash-case` for css naming convetion so you don't have to use the Shift key when writing the code. Also this naming convention can also be used in (for future) usage of the [BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/).
-
-Usage across languages:
-- `dash-case` in HTML/CSS
-- `camelCase` in Javascript
-- `underscore_case` in PHP 
-
-**Decleration formatting** can be used in a few methods, grouped by type (45%), randomly(39%), by alphabet(14%) or by line(2%). 
-
-
-**Example:**
-
-Stylesheet format: Use multiline format with indenting. (⋅⋅)
-Css naming: dash-case (-)
-Decleration formatting: by type (/* text */)
-
-
-```
-.selector-type {
-⋅⋅/* Positioning */
-⋅⋅position:absolute;
-⋅⋅left:100px;
-⋅⋅bottom:0px;
-
-⋅⋅/* Display & Box Model */
-⋅⋅display: inline-block;
-⋅⋅overflow: hidden;
-⋅⋅box-sizing: border-box;
-⋅⋅width:100px;
-⋅⋅height:100px;
-⋅⋅padding:10px;
-⋅⋅margin:10px;
-
-⋅⋅/* Color */
-⋅⋅background: #000;
-⋅⋅color:#fff;
-
-⋅⋅/* Text */
-⋅⋅etc...
-}
-
-
-```
-
-### 6. "Multi-class" patterns in combination with using @extends:
+### 5. "Multi-class" patterns in combination with using @extends:
 
 > If we have this html:
 
@@ -194,6 +145,58 @@ Decleration formatting: by type (/* text */)
 }
 ```
 > Experiment with this [example](http://sassmeister.com/gist/7083618)
+
+### 6. Define formatting. 
+
+#### 6.1 Class naming convention
+**Naming class convention** can include `dash-case`, `camelCase`, `underscore_case`. 
+
+Most people (css tricks formatting poll) prefer `dash-case` for css naming convetion so you don't have to use the Shift key when writing the code. Also this naming convention can also be used in (for future) usage of the [BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/).
+
+Usage across languages:
+- `dash-case` in HTML/CSS
+- `camelCase` in Javascript
+- `underscore_case` in PHP 
+
+#### 6.2 Formatting decleration
+
+**Multiline format** is preferred when using SASS. 
+**Decleration formatting** can be used in a few methods, grouped by type (45%), randomly(39%), by alphabet(14%) or by line(2%). 
+
+**Example:**
+
+Stylesheet format: Use multiline format with indenting. (⋅⋅)
+Css naming: dash-case (-)
+Decleration formatting: by type (/* text */)
+
+
+```
+.selector-type {
+⋅⋅/* Positioning */
+⋅⋅position:absolute;
+⋅⋅left:100px;
+⋅⋅bottom:0px;
+
+⋅⋅/* Display & Box Model */
+⋅⋅display: inline-block;
+⋅⋅overflow: hidden;
+⋅⋅box-sizing: border-box;
+⋅⋅width:100px;
+⋅⋅height:100px;
+⋅⋅padding:10px;
+⋅⋅margin:10px;
+
+⋅⋅/* Color */
+⋅⋅background: #000;
+⋅⋅color:#fff;
+
+⋅⋅/* Text */
+⋅⋅etc...
+}
+
+```
+
+See more code standards: [OOCSS code standards](https://github.com/stubbornella/oocss-code-standards)
 
 
 ---
