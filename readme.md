@@ -1,10 +1,10 @@
 ## Wordpress bone structure
 
-Compass, Sass, Susy.
+Tags: Compass, Sass, Susy.
 
 
 
-# CSS Architecture
+### CSS Architecture
 
 **base** (_base.scss) = The defaults, and Normalize.css.
 **layout** (_layout.scss) = Defining the grid. 
