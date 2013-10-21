@@ -54,7 +54,7 @@ Requirements:
 
 > Sass:
 
-```
+> ```
 %btn {
     padding:10px 15px;
     font-size:12px;
@@ -71,12 +71,12 @@ Requirements:
     background-color:red;
 }
 
-```
+> ```
 *Note the `%`. Which is called the* [placeholder selector](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#placeholders).
 
 > Outputs this CSS:
 
-```
+> ```
 .btn, .btn-primary, .btn-danger {
   padding: 10px 15px;
   font-size: 12px;
