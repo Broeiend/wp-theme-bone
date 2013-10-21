@@ -50,6 +50,7 @@ Terms:
 *As the design changes, these variable names will increase complexity for making rapid changes. If your class is called "blue" and you want to change it to red, you also have to edit the html.* 
 Instead use: '.warning', 'primary', 'submenu', etc.
 3. Write 'undo' rules (apart from the reset.css). For example uf you wanted almost all of you headings to have a border-bottom:
+
 ```
 // Wrong
 h2 {
@@ -61,6 +62,7 @@ h2 {
 }
 ```
 In this case you could write a new rule like this: `.no-border { padding-bottom: 0; border-bottom:none; }`, but this is NOT ideal. It is much better to write sub-modules that add styles. 
+
 ```
 /* default style */
 h2 {
