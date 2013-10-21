@@ -7,9 +7,9 @@ Requirements:
 
 -or-
 
-+ [CodeKit*](http://incident57.com/codekit/) 
++ [CodeKit](http://incident57.com/codekit/) 
 
-*(\*which contains all of before)*
+*(which contains all of before)*
 
 ------------
 ### CSS Architecture
