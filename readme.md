@@ -1,6 +1,15 @@
 ## Wordpress bone structure
 
-Requirements: [Compass](http://compass-style.org/), [Sass gem](http://rubygems.org/gems/sass), [Susy gem](http://rubygems.org/search?utf8=%E2%9C%93&query=susy) -or- [CodeKit](http://incident57.com/codekit/) *(which has all of the above)*
+Requirements: 
++ [Compass](http://compass-style.org/) 
++ [Sass gem](http://rubygems.org/gems/sass) 
++ [Susy gem](http://rubygems.org/search?utf8=%E2%9C%93&query=susy)  
+
+-or-
+
++ [CodeKit*](http://incident57.com/codekit/) 
+
+*(/*which contains all of before)*
 
 ------------
 ### CSS Architecture
