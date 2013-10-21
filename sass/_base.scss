@@ -1,7 +1,3 @@
-@import "compass/reset";
-@import "compass/css3";
-@import "susy";
-
 // Magic grid
 $total-columns  : 12;             // a 12-column grid
 $column-width   : 4em;            // each column is 4em wide
@@ -18,3 +14,4 @@ $computer: 55em 12;
 $container-style: fluid; 
 
 $base-font-size	: 16px;
+

@@ -1,10 +1,10 @@
 /*!
-Theme Name: Base bone structure
-Theme URI: http://www.url.nl/
-Author: RV
-Author URI: http://url.org/
-Description: Omschrijving van deze site
-Version: 1.0
+* Theme Name: Base bone structure
+* Theme URI: http://www.url.nl/
+* Author: RV
+* Author URI: http://url.org/
+* Description: Omschrijving van deze site
+* Version: 1.0
 
-Tags: Html5 base theme, sass
-*/html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}.page{*zoom:1;padding-left:1em;padding-right:1em;margin-left:auto;margin-right:auto;padding:0}.page:after{content:"";display:table;clear:both}.page>header{width:100%;float:right;margin-right:0;*margin-left:-1em;display:inline;margin-bottom:1em}.page>div,.page>article{min-height:100px}.sidemenu{width:100%;float:left;margin-right:1.69492%;display:inline;background-color:red}.main{width:100%;float:left;margin-right:1.69492%;display:inline;background-color:blue}.sidebar{width:23.72881%;float:right;margin-right:0;*margin-left:-1em;display:inline;background-color:yellow;display:none}@media (min-width: 39em){.sidemenu{width:35.89744%;float:left;margin-right:2.5641%}.main{width:61.53846%;float:right;margin-right:0}}@media (min-width: 55em){.sidemenu{width:23.72881%;float:left;margin-right:1.69492%}.main{width:49.15254%;float:left;margin-right:1.69492%}.sidebar{width:23.72881%;float:right;margin-right:0;display:inline}}
+* Tags: Html5 base theme, sass
+*/.page{*zoom:1;padding-left:1em;padding-right:1em;margin-left:auto;margin-right:auto;padding:0}.page:after{content:"";display:table;clear:both}.page>header{width:100%;float:right;margin-right:0;*margin-left:-1em;display:inline;margin-bottom:1em}.page>div,.page>article{min-height:100px}.sidemenu{width:100%;float:left;margin-right:1.69492%;display:inline;background-color:red}.main{width:100%;float:left;margin-right:1.69492%;display:inline;background-color:blue}.sidebar{width:23.72881%;float:right;margin-right:0;*margin-left:-1em;display:inline;background-color:yellow;display:none}@media (min-width: 39em){.sidemenu{width:35.89744%;float:left;margin-right:2.5641%}.main{width:61.53846%;float:right;margin-right:0}}@media (min-width: 55em){.sidemenu{width:23.72881%;float:left;margin-right:1.69492%}.main{width:49.15254%;float:left;margin-right:1.69492%}.sidebar{width:23.72881%;float:right;margin-right:0;display:inline}}
