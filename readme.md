@@ -11,7 +11,7 @@ Requirements:
 
 
 ------------
-### CSS Architecture
+### OOCSS/SASS Architecture
 
 **Normalize** (included in functions.php enqueued css) = HTML 5 ready alternative to CSS reset. See [Normalize](http://necolas.github.io/normalize.css/)
 
@@ -25,14 +25,24 @@ Requirements:
 
 *Note: Css architecture based on SMACSS: http://smacss.com/*
 
-=====
+
+------------
+
+> The purpose of OOCSS is to encourage code reuse and, ultimately, faster and more efficient stylesheets taht are easier to add and maintain.
+
+------------
+
 
 ## Notes on Front-end architecture
 
 ### Don'ts:
 
-1.1 Naming classes based on aesthetics: `.skyblue`, `.primary-green`.  
+1.1 Naming classes based on aesthetics: `.skyblue`, `.primary-green`, '.orange.bold', 'buttonBig' .  
 *As the design changes, these variable names will increase complexity for making rapid changes.* 
+
+But use: '.warning', 'primary', 'submenu', etc.
+
+
 
 1.2 ... 
 
